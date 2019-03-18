@@ -1,0 +1,17 @@
+{
+  "maximumScanBlocks": 60,
+  "blockHeaderUrl": "https://blockapi.zumpay.io/block/header/",
+  "syncUrl": "https://blockapi.zumpay.io/sync",
+  "randomOutputsUrl": "https://blockapi.zumpay.io/randomOutputs",
+  "queues": {
+    "scan": "scan.wallet",
+    "new": "request.wallet",
+    "complete": "complete.wallet",
+    "send": "send.wallet",
+    "relayAgent": "request.network"
+  },
+  "defaultConfirmations": 30,
+  "maximumConfirmations": 60,
+  "defaultNetworkFee": 10000000,
+  "defaultMixinCount": 0
+}
